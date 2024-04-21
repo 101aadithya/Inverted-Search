@@ -19,3 +19,10 @@ NOTE: * Once the files are passed through the command line and program is execut
 
                                                      FILE DESCRIPTION
    
+main.c : Contains the main functions and a menu for the user to select from.  
+validation.c : This validates the command line arguments passed.  
+create_database.c : Contains the code to create a hashtable and store the words, wordcount, filecount.  
+display_database.c : This file is used to display the cretaed database.  
+save_database.c : Contains the code to save the created database into a separate text file.  
+search_database.c : To search for a word in the database.  
+update_database.c : Contains code to update an already saved database.  
